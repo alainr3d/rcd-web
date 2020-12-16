@@ -1,0 +1,367 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.wrap-all {
+  max-width: 900px;
+  margin: auto;
+}
+.hd-container {
+   width: 100%;
+}
+.gray-bar {
+    background-color: #E0E4EE;
+    height: 70px;
+}
+.rd-logo {
+    width: 100px;
+}
+.bold-text {
+    color:#5CD4C6;
+    font-weight: bold;"
+    letter-spacing: .5px;
+}
+.self-intro {
+    font-size: 13px;
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    letter-spacing: .5px;
+    margin: 15px 5px 0 10px;
+    color: #353854;
+}
+.hd-content {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+}
+.case-studyh3 {
+    font-family: Helvetica Neue ;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    padding: 0;
+    margin: 25px 0 15px 15px;
+    color: #353637;
+}
+.ux-casestudy {
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: .5px;
+    color: #353637;
+    margin: 0 0 0 25px;
+}
+.images-list {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    list-style-type: none;
+    padding: 0;
+}
+.carousel-img {
+    border-radius: 15%;
+}
+.carousel-list {
+    margin-left: 15px;
+}
+.li-image  {
+    padding: 0 0 0 25px;
+}
+.li-image:first-child {
+    margin-left: 15px;
+    padding: 0;
+}
+.contactbar-list {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 30px 0;
+    padding: 0 0 0 25px;
+    justify-content: left;
+}
+.contactbar-icon {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+.other-works {
+    background-color: #E0E4EE;
+}
+.otherworks-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    list-style-type: none;
+    margin: 5px 20px 5px 20px;
+    padding: 0;
+}
+.gallery-img {
+    border-radius: 15%;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+.tabs-container {
+    display: flex;
+    justify-content: center;
+}
+.tab-content {
+display: flex;
+    justify-content: center;
+}
+.tablinks {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 33px;
+    border: none;
+    margin: 30px 5px 30px 5px;
+    padding: 8px 10px 8px 10px; 
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 10px;
+    color: #353637;
+}
+.contactme-box {
+    background-color: #5CD4C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactme-text {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    color: white;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 7px;
+}
+.contactme-textbox {
+    margin-top: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.emailme-button {
+    padding: 17px 25px 17px 25px;
+    margin: 0 5px 30px 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-family: Helvetica Neue;
+    color: #353637;
+    font-weight: bold;
+}
+.job-desc, .work-year, .span-animator, .educ-year, .educ-info{
+    color: #353637;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+  }
+  .workhistory-list, .educhistory-list {
+      list-style-type: none;
+  }
+  .work-year, .educ-year {
+      color: #5CD4C6;
+  }
+  .span-animator, .educinfo-bold {
+      font-weight: bold;
+  }
+  .workhistory-text, .educ-text {
+      margin: 40px;
+      text-align: left;
+      font-size: 29px;
+      color: #353637;
+      font-family: Helvetica Neue;
+  }
+  .span-animator, .job-desc, .educinfo-bold, .educ-info {
+      font-style: italic;
+  }
+  .job-desc, .educ-info {
+      margin: 0;
+      padding-bottom: 20px;
+  }
+  .coreskills-container {
+    background-color: #E0E4EE;
+  }
+  .h6-coreskills {
+    font-size: 29px;
+    color: #353637;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    padding: 25px;
+    margin: 0;
+  }
+  .coreskills-boxes {
+    list-style-type: none;
+    display: flex;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+  }
+  .coreskills-text {
+      padding: 10px;
+  }
+  .coreskills-list {
+      color: white;
+      font-family: helvetica neue;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .coreskills-list:nth-of-type(odd) {
+      background-color: #5CD4C6;
+      padding: 40px;
+  }
+  .coreskills-list:nth-of-type(even) {
+      background-color: #353854;
+      padding: 40px;
+  }
+  .coreskillswords-list {
+      list-style-type: none;
+      line-height: 3em;
+      font-family: helvetica neue;
+      color: #353637;
+      font-size: 14px;
+      margin: 0;
+  }
+ 
+  footer {
+      background-color: #353854 ;
+  }
+  .footer-textbox {
+      text-align: center;
+  }
+  .footer-text {
+      color: #E0E4EE;
+      font-size: 28px;
+      font-family: helvetica neue;
+      letter-spacing: 1px;
+      margin: 0;
+      padding-top: 40px;
+  }
+  .footer-span {
+      color: #E0E4EE;
+      font-size: 14px;
+      font-family: helvetica neue;
+      letter-spacing: 1px;
+      font-weight: 300;
+  }
+  .footer-ulbox {
+    list-style-type: none;
+    width: 75px;
+    margin: auto;
+    padding: 0 0 10px 0;
+  }
+  .footer-libox {
+    font-family: helvetica neue;
+    font-size: 24px;
+    padding: 22px;
+    color: #353854;
+    background-color: #5CD4C6;
+    margin: 36px 0;
+    font-weight: bold;
+    border-radius: 13px;
+  }
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .carousel-img {
+    width: 270px;
+    height: 250px;
+    }
+    .otherworks-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        list-style-type: none;
+        margin: 5px 20px 5px 20px;
+        padding: 0;
+    }
+    .tablinks {
+        padding: 15px 19px 15px 19px;
+        font-size: 14px;
+    }
+    .gallery-img {
+    width: 160px;
+    height: 148px;
+    }
+    .tabs-container {
+        padding: 8px;
+    }
+    .tab-content {
+        margin-bottom: 25px;
+    }
+    br {
+        display: none;
+    }
+    .work-educ-container {
+        display: flex;
+        justify-content: center;
+    }
+    .contactme-box {
+        width: 600px;
+        margin: auto;
+    }
+    .contactme-textbox {
+        display: flex;
+    }
+    .contactme-text {
+        padding: 25px 5px 25px 5px;
+        font-size: 22px;
+    }
+    .educ-textbox, workhistory-textbox {
+        padding: 0 50px 0 50px;
+    }
+    .emailme-button {
+        margin: 44px 0 0 7px;
+    }
+    .contactme-box {
+        flex-direction: row;
+        width: 700px;
+        margin: 66px auto;
+        height: 150px;
+    }
+    .button-container {
+        display: inline;
+    }
+    .workhistory-text, .educ-text {
+        margin: 0 40px 0 40px;
+    }
+    .workhistory-list, .educhistory-list {
+        padding: 10px;
+    }
+    .self-intro {
+        font-size: 16px;
+    }
+    .coreskillswords-list {
+        column-count: 2;
+    }
+    .coreskills-words {
+        margin: 14px 50px 0 50px;
+        padding: 10px 70px;
+      }
+    .footer-ulbox {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-libox {
+        margin: 21px;
+        width: 28px;
+        height: 22px;
+        line-height: 1em;
+    }
+
+}
