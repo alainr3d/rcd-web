@@ -23,7 +23,7 @@ html, body {
 }
 .self-intro {
     font-size: 13px;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-weight: 400;
     height: 50px;
     position: relative;
@@ -40,7 +40,7 @@ html, body {
     margin-left: 30px;
 }
 .case-studyh3 {
-    font-family: Helvetica Neue ;
+    font-family: Helvetica Neue, serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: .5px;
@@ -49,7 +49,7 @@ html, body {
     color: #353637;
 }
 .ux-casestudy {
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-size: 14px;
     font-weight: lighter;
     letter-spacing: .5px;
@@ -123,7 +123,7 @@ display: flex;
     margin: 30px 5px 30px 5px;
     padding: 8px 10px 8px 10px; 
     text-decoration: none;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-weight: bold;
     font-size: 10px;
     color: #353637;
@@ -139,7 +139,7 @@ display: flex;
     font-size: 18px;
     justify-content: center;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-style: italic;
     font-weight: normal;
     line-height: 7px;
@@ -152,18 +152,20 @@ display: flex;
     justify-content: center;
 }
 .emailme-button {
+    text-decoration: none;
+    background-color: white;
     padding: 17px 25px 17px 25px;
     margin: 0 5px 30px 5px;
     border-radius: 10px;
     border: none;
     font-size: 14px;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     color: #353637;
     font-weight: bold;
 }
 .job-desc, .work-year, .span-animator, .educ-year, .educ-info{
     color: #353637;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-size: 14px;
   }
   .workhistory-list, .educhistory-list {
@@ -180,7 +182,7 @@ display: flex;
       text-align: left;
       font-size: 29px;
       color: #353637;
-      font-family: Helvetica Neue;
+      font-family: Helvetica Neue, serif;
   }
   .span-animator, .job-desc, .educinfo-bold, .educ-info {
       font-style: italic;
@@ -195,7 +197,7 @@ display: flex;
   .h6-coreskills {
     font-size: 29px;
     color: #353637;
-    font-family: Helvetica Neue;
+    font-family: Helvetica Neue, serif;
     font-weight: bold;
     padding: 25px;
     margin: 0;
@@ -212,7 +214,7 @@ display: flex;
   }
   .coreskills-list {
       color: white;
-      font-family: helvetica neue;
+      font-family: helvetica neue, serif;
       font-size: 20px;
       font-weight: bold;
   }
@@ -227,7 +229,7 @@ display: flex;
   .coreskillswords-list {
       list-style-type: none;
       line-height: 3em;
-      font-family: helvetica neue;
+      font-family: helvetica neue, serif;
       color: #353637;
       font-size: 14px;
       margin: 0;
@@ -242,7 +244,7 @@ display: flex;
   .footer-text {
       color: #E0E4EE;
       font-size: 28px;
-      font-family: helvetica neue;
+      font-family: helvetica neue, serif;
       letter-spacing: 1px;
       margin: 0;
       padding-top: 40px;
@@ -250,7 +252,7 @@ display: flex;
   .footer-span {
       color: #E0E4EE;
       font-size: 14px;
-      font-family: helvetica neue;
+      font-family: helvetica neue, serif;
       letter-spacing: 1px;
       font-weight: 300;
   }
@@ -261,7 +263,7 @@ display: flex;
     padding: 0 0 10px 0;
   }
   .footer-libox {
-    font-family: helvetica neue;
+    font-family: helvetica neue, serif;
     font-size: 24px;
     padding: 22px;
     color: #353854;
@@ -270,14 +272,12 @@ display: flex;
     font-weight: bold;
     border-radius: 13px;
   }
+  .hide {
+      display: none;
+  }
 
 
-
-
-
-
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
     .carousel-img {
     width: 270px;
     height: 250px;
@@ -319,7 +319,7 @@ display: flex;
         display: flex;
     }
     .contactme-text {
-        padding: 25px 5px 25px 5px;
+        padding: 0 4px 22px 4px;
         font-size: 22px;
     }
     .educ-textbox, workhistory-textbox {
@@ -329,10 +329,12 @@ display: flex;
         margin: 44px 0 0 7px;
     }
     .contactme-box {
+        display: flex;
         flex-direction: row;
         width: 700px;
         margin: 66px auto;
         height: 150px;
+        align-items: center;
     }
     .button-container {
         display: inline;
@@ -362,6 +364,9 @@ display: flex;
         width: 28px;
         height: 22px;
         line-height: 1em;
+    }
+    .hide {
+        display: none;
     }
 
 }
