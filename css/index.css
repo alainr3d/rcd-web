@@ -23,7 +23,7 @@ html, body {
 }
 .self-intro {
     font-size: 13px;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, Serif;
     font-weight: 400;
     height: 50px;
     position: relative;
@@ -40,7 +40,7 @@ html, body {
     margin-left: 30px;
 }
 .case-studyh3 {
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: .5px;
@@ -49,7 +49,7 @@ html, body {
     color: #353637;
 }
 .ux-casestudy {
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-size: 14px;
     font-weight: lighter;
     letter-spacing: .5px;
@@ -92,6 +92,10 @@ html, body {
     margin: 0;
     padding: 0 5px 0 5px;
 }
+.icon-img {
+    width: 30px;
+    height: 25px;
+}
 .other-works {
     background-color: #E0E4EE;
 }
@@ -130,7 +134,7 @@ display: flex;
     margin: 30px 5px 30px 5px;
     padding: 8px 10px 8px 10px; 
     text-decoration: none;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-weight: bold;
     font-size: 10px;
     color: #353637;
@@ -146,7 +150,7 @@ display: flex;
     font-size: 18px;
     justify-content: center;
     color: white;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-style: italic;
     font-weight: normal;
     line-height: 7px;
@@ -166,13 +170,13 @@ display: flex;
     border-radius: 10px;
     border: none;
     font-size: 14px;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     color: #353637;
     font-weight: bold;
 }
 .job-desc, .work-year, .span-animator, .educ-year, .educ-info{
     color: #353637;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-size: 14px;
   }
   .workhistory-list, .educhistory-list {
@@ -189,7 +193,7 @@ display: flex;
       text-align: left;
       font-size: 29px;
       color: #353637;
-      font-family: Helvetica Neue, serif;
+      font-family: Helvetica Neue, Arial, serif;
   }
   .span-animator, .job-desc, .educinfo-bold, .educ-info {
       font-style: italic;
@@ -204,7 +208,7 @@ display: flex;
   .h6-coreskills {
     font-size: 29px;
     color: #353637;
-    font-family: Helvetica Neue, serif;
+    font-family: Helvetica Neue, Arial, serif;
     font-weight: bold;
     padding: 25px;
     margin: 0;
@@ -221,7 +225,7 @@ display: flex;
   }
   .coreskills-list {
       color: white;
-      font-family: helvetica neue, serif;
+      font-family: helvetica neue, Arial, serif;
       font-size: 20px;
       font-weight: bold;
   }
@@ -236,7 +240,7 @@ display: flex;
   .coreskillswords-list {
       list-style-type: none;
       line-height: 3em;
-      font-family: helvetica neue, serif;
+      font-family: helvetica neue, Arial, serif;
       color: #353637;
       font-size: 14px;
       margin: 0;
@@ -251,7 +255,7 @@ display: flex;
   .footer-text {
       color: #E0E4EE;
       font-size: 28px;
-      font-family: helvetica neue, serif;
+      font-family: helvetica neue, Arial, serif;
       letter-spacing: 1px;
       margin: 0;
       padding-top: 40px;
@@ -259,7 +263,7 @@ display: flex;
   .footer-span {
       color: #E0E4EE;
       font-size: 14px;
-      font-family: helvetica neue, serif;
+      font-family: helvetica neue, Arial, serif;
       letter-spacing: 1px;
       font-weight: 300;
   }
@@ -270,7 +274,7 @@ display: flex;
     padding: 0 0 10px 0;
   }
   .footer-libox {
-    font-family: helvetica neue, serif;
+    font-family: helvetica neue, Arial, serif;
     font-size: 24px;
     padding: 22px;
     color: #353854;

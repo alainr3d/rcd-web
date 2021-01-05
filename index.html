@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Rupert Dilig</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/png" href="content/other-works//logos/rd-logo.png" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
 </head>
 
@@ -81,16 +80,13 @@
                     <div class="contact-bar">
                         <ul class="contactbar-list">
                             <li class="contactbar-icon">
-                                <a href="mailto:rupertconraddilig@gmail.com"><img
-                                        src="content/icons/web-slide1-ICON1.png" class="icon-img"></a>
+                               <a href="#"><img src="https://dummyimage.com/30x30/008080"></a>
                             </li>
                             <li class="contactbar-icon">
-                                <a href="tel: +1-909-330-9904"><img src="content/icons/web-slide1-ICON2.png"
-                                        class="icon-img"></a>
+                              <a href="#"><img src="https://dummyimage.com/30x30/008080"></a>
                             </li>
                             <li class="contactbar-icon">
-                                <a href="https://www.linkedin.com/in/rupertconraddilig/"><img
-                                        src="content/icons/web-slide1-ICON3.png" class="icon-img"></a>
+                              <a href="#"><img src="https://dummyimage.com/30x30/008080"></a>
                             </li>
                         </ul>
                     </div>
@@ -137,16 +133,13 @@
                     <div class="contact-bar">
                         <ul class="contactbar-list">
                             <li class="contactbar-icon">
-                                <a href="mailto:rupertconraddilig@gmail.com"><img
-                                        src="content/icons/web-slide1-ICON1.png" class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                             <li class="contactbar-icon">
-                                <a href="tel: +1-909-330-9904"><img src="content/icons/web-slide1-ICON2.png"
-                                        class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                             <li class="contactbar-icon">
-                                <a href="https://www.linkedin.com/in/rupertconraddilig/"><img
-                                        src="content/icons/web-slide1-ICON3.png" class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                         </ul>
                     </div>
@@ -192,16 +185,13 @@
                     <div class="contact-bar">
                         <ul class="contactbar-list">
                             <li class="contactbar-icon">
-                                <a href="mailto:rupertconraddilig@gmail.com"><img
-                                        src="content/icons/web-slide1-ICON1.png" class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                             <li class="contactbar-icon">
-                                <a href="tel: +1-909-330-9904"><img src="content/icons/web-slide1-ICON2.png"
-                                        class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                             <li class="contactbar-icon">
-                                <a href="https://www.linkedin.com/in/rupertconraddilig/"><img
-                                        src="content/icons/web-slide1-ICON3.png" class="icon-img"></a>
+                                <img src="https://dummyimage.com/30x30/008080">
                             </li>
                         </ul>
                     </div>
@@ -274,7 +264,7 @@
                         <li class="gallery-image">
                             <img src="https://loremflickr.com/640/360" class="gallery-img">
                         </li>
-                        <li class="gallery-image">
+                       <li class="gallery-image">
                             <img src="https://loremflickr.com/640/360" class="gallery-img">
                         </li>
                         <li class="gallery-image">
@@ -298,7 +288,7 @@
                         <li class="gallery-image">
                             <img src="https://loremflickr.com/640/360" class="gallery-img">
                         </li>
-                    </ul>
+                    </ul> 
                     <ul class="otherworks-gallery">
                         <li class="gallery-image">
                             <img src="http://placeimg.com/640/360/any" class="gallery-img">
@@ -326,8 +316,7 @@
                     <p class="contactme-text">Please feel free to reach out.</h4>
                     <p class="contactme-text">I'm just one email away.</h4>
                 </div>
-                <div class="button-container"><a href="mailto:rupertconraddilig@gmail.com" class="emailme-button">EMAIL
-                        ME</a></div>
+                <div class="button-container"><a href="mailto:rupertconraddilig@gmail.com" class="emailme-button">EMAIL ME</a></div>
             </div>
             <div class="work-educ-container">
                 <div class="workhistory-textbox">
@@ -452,8 +441,8 @@
             </div>
             <footer>
                 <div class="footer-textbox">
-                    <p class="footer-text">Let's Connect!</p>
-                    <span class="footer-span">Don't be a stranger and say "hi!"</span>
+                <p class="footer-text">Let's Connect!</p>
+                <span class="footer-span">Don't be a stranger and say "hi!"</span>
                 </div>
                 <div class="icons-container">
                     <ul class="footer-ulbox">
@@ -472,8 +461,8 @@
         const allOtherWorks = document.querySelectorAll('.otherworks-gallery');
         let currentContentShown = 0;
 
-        for (let i = 0; i < allTabLinks.length; i++) {
-            allTabLinks[i].addEventListener('click', function () {
+        for(let i = 0; i < allTabLinks.length; i++) {
+            allTabLinks[i].addEventListener('click', function(){
                 allTabLinks[currentContentShown].classList.remove('highlight');
                 allTabLinks[i].classList.add('highlight');
                 allOtherWorks[currentContentShown].classList.remove('show');
