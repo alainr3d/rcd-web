@@ -65,6 +65,8 @@ html, body {
 }
 .carousel-img {
     border-radius: 15%;
+    width: 180px;
+    height: 150px;
 }
 .carousel-list {
     margin-left: 15px;
@@ -94,17 +96,22 @@ html, body {
     background-color: #E0E4EE;
 }
 .otherworks-gallery {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     list-style-type: none;
     margin: 5px 20px 5px 20px;
     padding: 0;
 }
+.show {
+    display: grid;
+}
 .gallery-img {
-    border-radius: 15%;
+   /* border-radius: 15%; */
     margin: 10px 0 10px 0;
     padding: 0;
+    width: 140px;
+    height: 170px;
 }
 .tabs-container {
     display: flex;
@@ -272,9 +279,7 @@ display: flex;
     font-weight: bold;
     border-radius: 13px;
   }
-  .hide {
-      display: none;
-  }
+
 
 
 @media screen and (min-width: 900px) {
@@ -283,20 +288,24 @@ display: flex;
     height: 250px;
     }
     .otherworks-gallery {
-        display: grid;
+        display: none;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
         list-style-type: none;
         margin: 5px 20px 5px 20px;
         padding: 0;
     }
+    .show {
+        display: grid;
+    }
     .tablinks {
-        padding: 15px 19px 15px 19px;
-        font-size: 14px;
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+        border-radius: 22px;
     }
     .gallery-img {
-    width: 160px;
-    height: 148px;
+        width: 160px;
+        height: 190px;
     }
     .tabs-container {
         padding: 8px;
@@ -365,8 +374,4 @@ display: flex;
         height: 22px;
         line-height: 1em;
     }
-    .hide {
-        display: none;
-    }
-
 }
