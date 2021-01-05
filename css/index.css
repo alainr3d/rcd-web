@@ -59,7 +59,7 @@ html, body {
 .images-list {
     display: flex;
     flex-direction: row;
-    overflow: scroll;
+    overflow-x: scroll;
     list-style-type: none;
     padding: 0;
 }
