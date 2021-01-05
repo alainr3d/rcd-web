@@ -139,6 +139,7 @@ display: flex;
     font-weight: bold;
     font-size: 10px;
     color: #353637;
+    outline: none;
 }
 .contactme-box {
     background-color: #5CD4C6;
@@ -284,6 +285,10 @@ display: flex;
     font-weight: bold;
     border-radius: 13px;
   }
+  .highlight {
+    background-color: #5CD4C6;
+    color: white;
+}
 
 
 
@@ -307,6 +312,7 @@ display: flex;
         padding: 15px 30px 15px 30px;
         font-size: 16px;
         border-radius: 22px;
+        outline: none;
     }
     .gallery-img {
         width: 160px;
@@ -378,5 +384,9 @@ display: flex;
         width: 28px;
         height: 22px;
         line-height: 1em;
+    }
+    .highlight {
+        background-color: #5CD4C6;
+        color: white;
     }
 }
