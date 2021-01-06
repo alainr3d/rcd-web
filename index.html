@@ -311,9 +311,6 @@
                             <img src="content/other-works/logos/portfolio-print1a.jpg" class="gallery-img">
                         </li>
                         <li class="gallery-image">
-                            <img src="content/other-works/logos/portfolio-print1a.jpg" class="gallery-img">
-                        </li>
-                        <li class="gallery-image">
                             <img src="content/other-works/logos/portfolio-print1b.jpg" class="gallery-img">
                         </li>
                         <li class="gallery-image">
@@ -370,8 +367,7 @@
                             </video>
                         </li>
                         <li class="gallery-image"><video width="320" height="240" controls>
-                                <source src="content/other-works/motion/crate1c2_1.mp4"
-                                    type="video/mp4">
+                                <source src="content/other-works/motion/crate1c2_1.mp4" type="video/mp4">
                             </video>
                         </li>
                         <li class="gallery-image">
@@ -379,7 +375,6 @@
                                 <source src="content/other-works/motion/crate1d1.mp4" type="video/mp4">
                             </video>
                         </li>
-                    
                 </div>
             </div>
             <div class="contactme-box">
@@ -508,7 +503,6 @@
                         <li class="coreskills-text">- Writing Skills</li>
                         <li class="coreskills-text">- Critical Thinking</li>
                     </ul>
-
                 </div>
             </div>
             <footer>
@@ -528,22 +522,6 @@
             </footer>
         </div>
     </main>
-    <script>
-        const allTabLinks = document.querySelectorAll('.tablinks');
-        const allOtherWorks = document.querySelectorAll('.otherworks-gallery');
-        let currentContentShown = 0;
-
-        for (let i = 0; i < allTabLinks.length; i++) {
-            allTabLinks[i].addEventListener('click', function () {
-                allTabLinks[currentContentShown].classList.remove('highlight');
-                allTabLinks[i].classList.add('highlight');
-                allOtherWorks[currentContentShown].classList.remove('show');
-                allOtherWorks[i].classList.add('show');
-
-                currentContentShown = i;
-            })
-        }
-    </script>
+    <script src="tab.js"></script>
 </body>
-
 </html>
