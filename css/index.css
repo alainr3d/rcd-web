@@ -69,12 +69,6 @@ html, body {
     width: 240px;
     height: 210px;
 }
-.carousel-img:hover {
-    opacity: .8;
-    width: 100%;
-    height: 100%;
-
-}
 .carousel-overlay {
     position: absolute;
     display: none;
@@ -266,13 +260,13 @@ display: flex;
   }
  
   footer {
-      background-color: #353854 ;
+      background-color: #E0E4EE ;
   }
   .footer-textbox {
       text-align: center;
   }
   .footer-text {
-      color: #E0E4EE;
+      color: #20242de5;
       font-size: 28px;
       font-family: helvetica neue, Arial, serif;
       letter-spacing: 1px;
@@ -280,19 +274,20 @@ display: flex;
       padding-top: 40px;
   }
   .footer-span {
-      color: #E0E4EE;
+      color: #20242de5;
       font-size: 14px;
       font-family: helvetica neue, Arial, serif;
       letter-spacing: 1px;
       font-weight: 300;
   }
   .footer-ulbox {
-    list-style-type: none;
-    width: 75px;
-    margin: auto;
-    padding: 0 0 10px 0;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+    
   }
-  .footer-libox {
+  /*.footer-libox {
     font-family: helvetica neue, Arial, serif;
     font-size: 24px;
     padding: 22px;
@@ -300,7 +295,12 @@ display: flex;
     background-color: #5CD4C6;
     margin: 36px 0;
     font-weight: bold;
-    border-radius: 13px;
+    border-radius: 13px; 
+  } */
+  .footer-icon {
+    padding: 29px 4px;
+    width: 60px;
+    margin: 7px 14px;
   }
   .highlight {
     background-color: #5CD4C6;
@@ -313,6 +313,7 @@ display: flex;
     font-family: Arial, Helvetica Neue, sans-serif;
     color: #353854;
     border: 1px solid #d0d3d9;
+    opacity: .8;
 }
 .carousel-img-overlay {
     width: 350px;
@@ -320,7 +321,7 @@ display: flex;
     top: 200px;
     display: flex;
     left: 17px;
-}
+} 
 
 
 
@@ -356,7 +357,7 @@ display: flex;
     .tab-content {
         margin-bottom: 25px;
     }
-    br {
+    .hide {
         display: none;
     }
     .work-educ-container {
@@ -411,11 +412,9 @@ display: flex;
         display: flex;
         justify-content: center;
     }
-    .footer-libox {
-        margin: 21px;
-        width: 28px;
-        height: 22px;
-        line-height: 1em;
+    .footer-span {
+        font-size: 20px;
+    }
     }
     .highlight {
         background-color: #5CD4C6;
